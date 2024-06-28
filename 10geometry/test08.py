@@ -5,4 +5,3 @@ else:
     after_max = sum(lines) - max(lines) - 1
     lines[lines.index(max(lines))] = after_max
     print(sum(lines))
-
